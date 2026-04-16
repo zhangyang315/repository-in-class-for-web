@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: ONYX;
+    src: url("../font/ONYX.ttf");
+}
+
+@font-face {
+    font-family: TCM;
+    src: url("../font/TCCM____.TTF");
+}
+
+@font-face {
+    font-family: BOOM;
+    src: url("../font/BOOMBOX.TTF");
+}
+
+@font-face {
+    font-family: LTCH;
+    src: url("../font/LTCH.ttf");
+}
+
+.one .a {
+    font-family: ONYX;
+    font-size: 48px;
+    color: #333;
+}
+
+.one .b {
+    font-family: TCM;
+    font-size: 58px;
+    color: #4c9372;
+}
+
+.two .a {
+    font-family: BOOM;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.two .b {
+    font-family: BOOM;
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+
+}
+
+h2 .a {
+    font-family: BOOM;
+    font-size: 60px;
+
+}
+
+h2 .b {
+    font-family: LTCH;
+    font-size: 50px;
+    color: #e1005a;
+}
+
+.three {
+    font-family: "微软雅黑";
+    font-size: 36px;
+
+}
+
+.three strong {
+
+    color: #e1005a;
+}
+
+.four {
+    font-family: "微软雅黑";
+    width: 500px;
+    font-size: 14px;
+    color: #747474;
+    word-break: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}

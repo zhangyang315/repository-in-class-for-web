@@ -11,6 +11,9 @@
             list-style: none;
             outline: none;
         }
+        body{
+            background-color: #ff0000;
+        }
         .rbox{
             /* background-color: rgb(148, 1, 1); */
             background-image: repeating-radial-gradient(circle at 50% 50%,#c9120a,#9e110b 1%);
@@ -57,6 +60,26 @@
         }
         ul .yj{border-radius:0 0 30px 30px;
         }
+        /* 修改链接颜色 */
+        a {
+            color: #d6d6d6;
+            text-decoration: none;
+        }
+        /* 鼠标悬停时的颜色 */
+        a:hover {
+            color: #fff;
+        }
+        /* 图片一行显示 */
+        nav {
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        nav img {
+            width: 200px;
+            height: auto;
+            
+        }
 
     
     </style>
@@ -65,12 +88,21 @@
     <div class="rbox">
         <ul>
             <li class="tp"></li>
-            <li>彭士禄</li>
-            <li>杨振宁</li>
-            <li>顾诵芬</li>
-            <li>吴天一</li>
-            <li class="yj">朱彦夫</li>
+            <li><a href="https://cpc.people.com.cn/GB/67481/382991/437550/" target="_blank">彭士禄</a></li>
+            <li><a href="https://www.cas.cn/zt/rwzt/26qm/202603/t20260323_5104966.shtml" target="_blank">杨振宁</a></li>
+            <li><a href="https://www.cas.cn/zt/hyzt/ysdh21st/ysfc/202406/t20240621_5022368.shtml" target="_blank">顾诵芬</a></li>
+            <li><a href="https://www.12371.cn/2022/03/06/VIDE1646552521575230.shtml" target="_blank">吴天一</a></li>
+            <li class="yj"><a href="https://www.xuexi.cn/lgpage/detail/index.html?id=5782773569730937303&item_id=5782773569730937303" target="_blank">朱彦夫</a></li>
         </ul>
     </div>
+    <h1 align="center">感动中国人物片段</h1>
+    <nav align="center">
+        <a href="https://tv.cctv.com/2022/03/03/VIDEILnoUNVAv7w7DeEPc4jM220303.shtml?spm=C55953877151.PjvMkmVd9ZhX.0.0" target="_blank"><img src="https://p1.img.cctvpic.com/fmspic/2022/03/03/7ed4c10a4811443cbe0e019550eb894c-1.jpg" alt="222" title="朱彦夫"></a>
+        <a href="https://tv.cctv.com/2022/03/03/VIDE6dbIhgI3MQC3qUgOXa8o220303.shtml?spm=C55953877151.PjvMkmVd9ZhX.0.0" target="_blank"><img src="https://p2.img.cctvpic.com/fmspic/2022/03/03/969c3f7c70dd429bbfd0d92e45ebf619-1.jpg" alt="333" title="彭士禄"></a>
+        <a href="https://tv.cctv.com/2022/03/04/VIDERUiNLkWX8XSBaBrVJU2t220304.shtml?spm=C55953877151.PjvMkmVd9ZhX.0.0" target="_blank"><img src="https://p2.img.cctvpic.com/fmspic/2022/03/04/240f27d8f3c04911922c32e4972d8544-1.jpg" alt="444" title="杨振宁"></a>
+        <a href="https://tv.cctv.com/2022/03/06/VIDEYuN6UbnTB1rTPeABnbJB220306.shtml?spm=C55953877151.PjvMkmVd9ZhX.0.0" target="_blank"><img src="https://p5.img.cctvpic.com/fmspic/2022/03/06/371873885bf149bf9bc25b45519a6298-1.jpg" alt="555" title="顾诵芬"></a>
+        <a href="https://tv.cctv.com/2022/03/06/VIDEPoX2Akr2laxFh7qR7Vea220306.shtml?spm=C55953877151.PjvMkmVd9ZhX.0.0" target="_blank"><img src="https://p1.img.cctvpic.com/fmspic/2022/03/06/9aa488afea3547b4bafdff96b735060b-1.jpg" alt="555" title="吴天一"></a>
+    </nav>
+
 </body>
 </html>

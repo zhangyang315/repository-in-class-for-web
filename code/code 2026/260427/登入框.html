@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登入框</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f2f5;
+        }
+        .login{
+            width: 320px;
+            /* height: 300px; */
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 40px;
+        }
+        input{
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            outline: none;
+        }
+        button{
+            width: 100%;
+            padding: 12px;
+            background-color: #1677ff;
+            border-radius: 5px;
+            margin-top: 10px;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #1458a6;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h2 style="text-align: center;margin-bottom: 20px;">用户登入</h2>
+        <input type="text" placeholder="请输入用户名">
+        <input type="password" placeholder="请输入密码">
+        <button>登入</button>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百度一下，你就知道</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .nav {
+            text-align: right;
+            padding: 20px 30px;
+            font-size: 13px;
+        }
+
+        .nav a {
+            color: #333;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            color: #4e6ef2;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+        }
+
+        .logo {
+            width: 270px;
+            height: 129px;
+            margin-bottom: 30px;
+        }
+
+        .search-wrapper {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-box {
+            width: 650px;
+            height: 44px;
+            border: 1px solid #4e6ef2;
+            border-radius: 24px 0 0 24px;
+            display: flex;
+            align-items: center;
+            padding: 0 15px;
+        }
+
+        .search-input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            padding: 0 10px;
+        }
+
+        .search-btn {
+            width: 108px;
+            height: 44px;
+            background-color: #4e6ef2;
+            color: white;
+            font-size: 17px;
+            border: none;
+            border-radius: 0 24px 24px 0;
+            cursor: pointer;
+        }
+
+        .search-btn:hover {
+            background-color: #4662d9;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            padding: 20px 0;
+        }
+
+        .footer a {
+            color: #999;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .footer a:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="#">新闻</a>
+        <a href="#">hao123</a>
+        <a href="#">地图</a>
+        <a href="#">视频</a>
+        <a href="#">贴吧</a>
+        <a href="#">图片</a>
+        <a href="#">网盘</a>
+        <a href="#">更多</a>
+    </div>
+
+    <div class="container">
+        <img src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" alt="百度logo" class="logo">
+        
+        <!-- 关键：用form表单指向百度搜索地址 -->
+        <form action="https://www.baidu.com/s" method="get" class="search-wrapper">
+            <div class="search-box">
+                <!-- name="wd" 是百度固定搜索参数名 -->
+                <input type="text" name="wd" class="search-input" placeholder="请输入搜索内容" required>
+            </div>
+            <button type="submit" class="search-btn">百度一下</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <a href="#">关于百度</a> | 
+        <a href="#">使用百度前必读</a> | 
+        <a href="#">帮助中心</a>
+        <br><br>
+        ©2025 Baidu 京ICP证030173号
+    </div>
+</body>
+</html>

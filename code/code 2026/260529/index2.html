@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script> 
+        window.onload = function () {
+            document.body.innerHTML = "<input id='btn' type='button' value='按钮' ><input type='button' value='按钮' ><input type='button' value='按钮' >";
+            var oBtn = document.getElementsByTagName("input");
+            oBtn[0].onclick = function () {
+                alert("表单共有元素 :" + oBtn.length + "个");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- <input type='button' value='按钮' >
+    <input type='button' value='按钮' >
+    <input type='button' value='按钮' > -->
+
+</body>
+
+</html>

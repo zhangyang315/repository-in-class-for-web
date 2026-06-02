@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function () 
+        {
+           var oUl=document.getElementById("list");
+           var oLi=oUl.getElementsByTagName("li");
+           oLi[2].style.color="red";
+        }
+    </script>
+</head>
+<body>
+    <ul id="list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>Vue.js</li>
+    </ul>
+</body>
+</html>

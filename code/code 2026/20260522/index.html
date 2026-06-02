@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function shuixianhua(){
+        
+        for(let i=100;i<=999;i++){
+            var a = i % 10;
+            var b=  Math.floor(i/10)%10;
+            var c = Math.floor(i/100)%10;      
+                
+            if(a*a*a + b*b*b + c*c*c == i){
+                document.write(i+'<br>');
+                
+            }
+        }
+    }
+    shuixianhua();
+    </script>
+    
+</body>
+
+</html>

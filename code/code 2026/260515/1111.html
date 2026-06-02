@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="num1" placeholder="请输入一个数字">
+    <button id="判断" onclick="is1()">判断</button>
+    <p id="a"></p>
+</body>
+<script>
+    function is1(){
+        let a;
+        let num = document.getElementById('num1').value;
+        if(num==1){
+            a='是';
+        }else{
+            a='不是';
+        }
+        // 移入函数内部
+        document.getElementById('a').innerText = a;
+    }
+</script>
+</html>

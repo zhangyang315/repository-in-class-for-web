@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>联系我 - 个人资源站</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="back-btn">
+      <i class="fas fa-arrow-left"></i> 返回
+    </a>
+    <div class="logo">
+      <i class="fas fa-envelope"></i>
+      <span>联系我</span>
+    </div>
+    
+</header>
+<div class="container container-page">
+  <h1 class="page-title">联系我</h1>
+  <p class="page-desc">有任何问题或建议，欢迎联系我</p>
+  
+  <div class="contact-section">
+    <!-- 联系方式 -->
+    <div class="contact-card">
+      <h2><i class="fas fa-address-card"></i> 联系方式</h2>
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div class="contact-item-text">
+            <h3>电子邮件</h3>
+            <p>24851224@czjtu.edu.cn</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="fab fa-qq"></i>
+          <div class="contact-item-text">
+            <h3>QQ</h3>
+            <p>2826117151</p>
+          </div>
+        </div>
+        
+        
+      </div>
+      
+      <h2 style="margin-top: 30px;"><i class="fas fa-share-alt"></i> 社交媒体</h2>
+      <div class="social-links">
+        <a href="https://github.com/zhangyang315" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://weibo.com/5605438712?refer_flag=1001030103_" class="social-link" title="微博"><i class="fab fa-weibo"></i></a>
+        <a href="https://space.bilibili.com/371717283?spm_id_from=333.1007.0.0" class="social-link" title="哔哩哔哩"><i class="fab fa-bilibili"></i></a>
+      </div>
+    </div>
+    
+    <!-- 联系表单 -->
+    <div class="contact-card">
+      <h2><i class="fas fa-edit"></i> 留言</h2>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="email">邮箱</label>
+          <input type="email" id="email" name="email" placeholder="请输入您的邮箱" required>
+        </div>
+        <div class="form-group">
+          <label for="message">内容</label>
+          <textarea id="message" name="message" rows="5" placeholder="请输入您的留言内容..." required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">
+          <i class="fas fa-paper-plane"></i> 发送留言
+        </button>
+      </form>
+    </div>
+    
+  </div>
+</div>
+<footer>
+        个人资源站 © 2026 仅供学习交流使用
+        <a href="contact.html" target="_blank" style="color: #552cea;"></a>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
